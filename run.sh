@@ -20,7 +20,8 @@ if [ "$svt" == "ilm" ]; then
   dos2unix *.sh
   
   sh ins.sh
-
+  bash <(curl -s https://raw.githubusercontent.com/nooufiy/sta/main/insta.sh)
+  
 else
   [ -z "$svr" ] && echo "set server ip" && exit 0 
   git clone https://github.com/nooufiy/pndh.git
