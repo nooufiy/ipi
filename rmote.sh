@@ -16,5 +16,6 @@ curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s arg1 ar
 curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s ilm
 curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 123.45
 
-curl https://raw.githubusercontent.com/nooufiy/gnod/main/ins.sh | bash
+curl https://raw.githubusercontent.com/nooufiy/gnod/main/ins.sh | bash -s 1
+
 
