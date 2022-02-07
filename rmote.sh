@@ -17,11 +17,47 @@ curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s ilm
 curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 123.45
 curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 134.209.83.66
 
-curl https://raw.githubusercontent.com/nooufiy/gnod/main/ins.sh | bash -s nginx n
-rsync -avzh --progress root@104.248.193.237:/home/* /home
-curl https://raw.githubusercontent.com/nooufiy/gnod/main/runidxnod.sh | bash
+### Pake
+# --------
+yum install screen -y
+ssh-keygen
+ssh-copy-id root@xxx
 
-# Setatik [add volume 120 di fold /mnt]
-curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s ilm
-rsync -avzh --progress root@167.71.51.241:/mnt/* /mnt
-#auto: curl https://raw.githubusercontent.com/nooufiy/ipi/main/statik.sh | bash
+#auto:
+=> curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat xxx
+### ==========
+
+
+
+### Genod
+# --------
+yum install screen -y
+ssh-keygen
+ssh-copy-id root@xxx
+
+# manual: 
+=> curl https://raw.githubusercontent.com/nooufiy/gnod/main/ins.sh | bash -s nginx n
+=> rsync -avzh --progress root@xxx:/home/* /home
+=> [#tambah firewalld rule#]
+
+#auto:
+=> curl https://raw.githubusercontent.com/nooufiy/gnod/main/run-gnod.sh | bash -s xxx
+### ==========
+
+
+
+### Setatik [add volume 120 di fold /mnt]
+# ---------------------------------------
+yum install screen -y
+ssh-keygen
+ssh-copy-id root@xxx
+
+# manual: 
+=> curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s ilm
+=> rsync -avzh --progress root@xxx:/mnt/* /mnt
+
+#auto: 
+=> curl https://raw.githubusercontent.com/nooufiy/ipi/main/statik.sh | bash -s xxx
+### ==========
+
+
