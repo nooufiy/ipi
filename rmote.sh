@@ -17,6 +17,8 @@ curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s ilm
 curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 123.45
 curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 134.209.83.66
 
+
+
 ### Pake
 # --------
 yum install screen -y
