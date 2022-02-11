@@ -19,20 +19,18 @@ curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 134
 
 
 
-### Pake
-# --------
+### Pake ------
 yum install screen -y
 ssh-keygen
 ssh-copy-id root@xxx
 
 #auto:
 => curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat xxx
-### ==========
+### ===========
 
 
 
-### Genod
-# --------
+### Genod ----
 yum install screen -y
 ssh-keygen
 ssh-copy-id root@xxx
@@ -44,12 +42,12 @@ ssh-copy-id root@xxx
 
 #auto:
 => curl https://raw.githubusercontent.com/nooufiy/gnod/main/run-gnod.sh | bash -s xxx
-### ==========
+### ===========
 
 
 
-### Setatik [add volume 120 di fold /mnt]
-# ---------------------------------------
+### Setatik --
+# [add volume 120 di fold /mnt]
 yum install screen -y
 ssh-keygen
 ssh-copy-id root@xxx
@@ -60,6 +58,6 @@ ssh-copy-id root@xxx
 
 #auto: 
 => curl https://raw.githubusercontent.com/nooufiy/ipi/main/statik.sh | bash -s xxx
-### ==========
+### ===========
 
 
