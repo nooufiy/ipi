@@ -61,3 +61,8 @@ ssh-copy-id root@xxx
 ### ===========
 
 
+
+### Squid --
+#auto: 
+=> curl https://raw.githubusercontent.com/nooufiy/sq/main/sq.sh | bash
+### ===========
