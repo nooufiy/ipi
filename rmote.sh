@@ -41,7 +41,7 @@ ssh-copy-id root@xxx
 => [#tambah firewalld rule#]
 
 #auto:
-=> curl https://raw.githubusercontent.com/nooufiy/gnod/main/run-gnod.sh | bash -s xxx
+=> curl https://raw.githubusercontent.com/nooufiy/gnod/main/run-gnod.sh | bash -s nginx n xxx
 ### ===========
 
 
