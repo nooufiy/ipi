@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 123
 curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 134.209.83.66
 
 curl https://raw.githubusercontent.com/nooufiy/ilamp74/main/ins-c8.sh | bash
-
+curl https://raw.githubusercontent.com/nooufiy/ilamp81/main/ins-c7.sh | bash
 
 
 ### Pake ------
