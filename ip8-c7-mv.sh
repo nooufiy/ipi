@@ -7,9 +7,9 @@
 # bash run.sh fat 123.45.67.89
 
 #svt=$1				# server type (ilm ,fat or shu)
-svr=$1				# server ip
+srv=$1				# server ip
 
-[ -z "$svr" ] && echo "set server ip" && exit 0 
+[ -z "$srv" ] && echo "set server ip" && exit 0 
 
 yum install git -y
 yum install dos2unix -y
