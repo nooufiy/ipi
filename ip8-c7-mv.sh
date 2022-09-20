@@ -1,10 +1,11 @@
 
 #!/bin/bash
 
-# ===================== #
-# Instal & Pindah Server
-# ===================== #
-# bash run.sh fat 123.45.67.89
+echo ""
+echo " ============================ #"
+echo " Instal php8, centos7 & mv dt
+echo " ============================ #
+echo ""
 
 #svt=$1				# server type (ilm ,fat or shu)
 srv=$1				# server ip
@@ -23,6 +24,7 @@ rsync -avzh --progress root@"$srv":/home/* /home
 chcon -R -t httpd_sys_rw_content_t /home
 
 rsync -avzh --progress root@"$srv":/etc/httpd/conf/httpd.conf /home
+mv /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf_bak
 cp -r /home/httpd.conf /etc/httpd/conf/
 service httpd restart
 
