@@ -30,6 +30,7 @@ ssh-copy-id root@xxx
 
 #auto:
 => curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat xxx
+=> curl https://raw.githubusercontent.com/nooufiy/ipi/main/ip8-c7-mv.sh | bash -s IP
 ### ===========
 
 
