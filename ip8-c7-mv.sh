@@ -24,6 +24,7 @@ chcon -R -t httpd_sys_rw_content_t /home
 
 rsync -avzh --progress root@"$srv":/etc/httpd/conf/httpd.conf /home
 cp -r /home/httpd.conf /etc/httpd/conf/
+service httpd restart
 
 echo ""
 echo "====================="
