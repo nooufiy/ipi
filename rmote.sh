@@ -23,10 +23,15 @@ curl https://raw.githubusercontent.com/nooufiy/ilamp74/main/ins-c8.sh | bash
 curl https://raw.githubusercontent.com/nooufiy/ilamp81/main/ins-c7.sh | bash
 
 
-### Pake ------
+
+### == install first == ###
 yum install screen -y
 ssh-keygen
 ssh-copy-id root@xxx
+
+
+
+### Pake ------
 
 #auto:
 => curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat xxx
@@ -34,11 +39,7 @@ ssh-copy-id root@xxx
 ### ===========
 
 
-
 ### Genod ----
-yum install screen -y
-ssh-keygen
-ssh-copy-id root@xxx
 
 # manual: 
 => curl https://raw.githubusercontent.com/nooufiy/gnod/main/ins.sh | bash -s nginx n
@@ -50,12 +51,8 @@ ssh-copy-id root@xxx
 ### ===========
 
 
-
 ### Setatik --
 # [add volume 120 di fold /mnt]
-yum install screen -y
-ssh-keygen
-ssh-copy-id root@xxx
 
 # manual: 
 => curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s ilm
@@ -66,8 +63,11 @@ ssh-copy-id root@xxx
 ### ===========
 
 
-
 ### Squid --
 #auto: 
 => curl https://raw.githubusercontent.com/nooufiy/sq/main/run.sh | bash
 ### ===========
+
+
+
+###
