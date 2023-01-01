@@ -69,5 +69,6 @@ ssh-copy-id root@xxx
 ### ===========
 
 
-
+#rdp
+=> curl https://raw.githubusercontent.com/nooufiy/rdp/main/auto-lnx2win10.sh | bash
 ###
