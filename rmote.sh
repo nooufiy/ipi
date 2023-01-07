@@ -71,4 +71,8 @@ ssh-copy-id root@xxx
 
 #rdp
 => curl https://raw.githubusercontent.com/nooufiy/rdp/main/auto-lnx2win10.sh | bash
+=> sudo curl \
+    -L https://raw.githubusercontent.com/nooufiy/rdp/main/auto-lnx2win10.sh \
+    -o /etc/bash_completion.d/mbuh
+=> curl -sL "https://raw.githubusercontent.com/nooufiy/rdp/main/auto-lnx2win10.sh" | bash -s
 ###
