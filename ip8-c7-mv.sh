@@ -22,7 +22,7 @@ curl https://raw.githubusercontent.com/nooufiy/ilamp81/main/ins-c7.sh | bash
 # mkdir /home/az
 rsync -avzh --progress root@"$srv":/home/* /home
 chcon -R -t httpd_sys_rw_content_t /home
-
+rsync -avzh --progress root@"$srv":/etc/httpd/conf.s /etc/httpd/
 rsync -avzh --progress root@"$srv":/etc/httpd/conf/httpd.conf /home
 mv /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf_bak
 cp -r /home/httpd.conf /etc/httpd/conf/
