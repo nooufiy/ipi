@@ -19,6 +19,7 @@ curl https://raw.githubusercontent.com/nooufiy/ipi/main/run.sh | bash -s fat 134
 
 https://github.com/nooufiy/ilamp74/blob/main/ins.sh
 curl https://raw.githubusercontent.com/nooufiy/ilamp74/main/ins.sh | bash
+curl https://raw.githubusercontent.com/nooufiy/ilamp74/main/ins-db.sh | bash
 curl https://raw.githubusercontent.com/nooufiy/ilamp74/main/ins-c8.sh | bash
 curl https://raw.githubusercontent.com/nooufiy/ilamp81/main/ins-c7.sh | bash
 
